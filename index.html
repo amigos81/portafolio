@@ -28,57 +28,46 @@
         <nav class="nav">
             <a class="logo" href="/">EDWARD QM</a>
             <div id="navmenu" class="menu">
-                <ul class="list-item">
-                    <li class="item active"><a class="list-link" href="#hero">Inicio</a></li>
-                    <li class="item"><a class="list-link" href="#about">Sobre mi</a></li>
-                    <li class="item"><a class="list-link" href="#skill">Habilidades</a></li>
-                    <li class="item"><a class="list-link" href="#contacto">Contacto</a></li>
+                <ul class="menu-list">
+                    <li class="list-item active"><a class="list-link" href="#hero">Inicio</a></li>
+                    <li class="list-item"><a class="list-link" href="#about">Acerca de mi</a></li>
+                    <li class="list-item"><a class="list-link" href="#skill">Habilidades</a></li>
+                    <li class="list-item"><a class="list-link" href="#contacto">Contacto</a></li>
                 </ul>
             </div>
             <div class="actions">
-                <div class="theme">
-                    <button class="btn-theme">
-                        <i class='bx bxs-moon'></i>
-                    </button>
-                    <!-- <button class="btn-theme">
-                        <i class='bx bxs-sun'></i>
-                    </button> -->
-                </div>
-
+                <button class="btn-theme">
+                    <i class='bx bxs-moon'></i>
+                </button>
                 <button id="btn-menu" class="btn-open-menu">
                     <i class='bx bx-menu'></i>
                 </button>
             </div>
         </nav>
-
     </header>
 
-    <main class="main">
+    <main>
         <section id="hero" class="section-hero">
             <div class="hero">
                 <img class="hero-foto" src="assets/img/foto.png" alt="" width="300">
                 <div class="hero-descripcion">
-                    <p class="hero-myname">Hola, mi nombre es</p>
+                    <div class="hero-mynameis">Hola, mi nombre es</div>
                     <h1 class="hero-nombre">Edward Quisocala</h1>
-                    <p class="hero-desarrollador">DESARROLLADOR <span>FULL STACK</span></p>
-                    <!-- <p>¡Te doy la bienvenida a mi rincón digital! Aquí encontrarás toda la información clave sobre
-                            quién soy, mi trabajo, mis pasiones y lo que me distingue como individuo. Mi enfoque
-                            principal es la creación de experiencias excepcionales y la generación de impresiones
-                            sorprendentes mediante el desarrollo de software</p> -->
-                    <!-- <p class="hero-email">sis.duar@gmail.com</p> -->
+                    <div class="hero-desarrollador">DESARROLLADOR <div><span></span></div></div>
                     <div class="social-link">
                         <a href="https://github.com/amigos81/portafolio.git"><i class='bx bxl-github'></i></a>
                         <a href=""><i class='bx bxl-linkedin-square'></i></a>
-                        <a href="https://api.whatsapp.com/send?phone=+51 998040405&text=Hola"><i class='bx bxl-whatsapp'></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=+51 998040405&text=Hola"><i
+                                class='bx bxl-whatsapp'></i></a>
                     </div>
                 </div>
             </div>
         </section>
         <div class="container">
-            <section id="about" class="section-about">
+            <section id="about" class="section">
                 <div class="about">
-                    <h2 class="about-title"><span>Acerca</span> de mi</h2>
-                    <div class="about-descripcion">
+                    <h2 class="title"><i class='bx bxs-user' ></i><span>Acerca</span> de mi</h2>
+                    <div class="descripcion">
                         <p>
                             Soy un desarrollador web con pasión por crear sitios web atractivos, funcionales y
                             accesibles.
@@ -94,20 +83,20 @@
                             páginas web.
                         </p>
                         <h3>habilidades blandas</h3>
-                        <ul>
-                            <li>Comunicación</li>
-                            <li>Trabajo en Equipo</li>
-                            <li>Adaptabiidad</li>
-                            <li>Gestión de tiempo</li>
-                            <li>Aprendizaje Continuo</li>
+                        <ul class="habildades-blandas">
+                            <li><i class='bx bx-check-square'></i> Comunicación</li>
+                            <li><i class='bx bx-check-square'></i> Trabajo en Equipo</li>
+                            <li><i class='bx bx-check-square'></i> Adaptabiidad</li>
+                            <li><i class='bx bx-check-square'></i> Gestión de tiempo</li>
+                            <li><i class='bx bx-check-square'></i> Aprendizaje Continuo</li>
                         </ul>
                     </div>
                 </div>
             </section>
-            <section id="skill" class="section-skill">
+            <section id="skill" class="section">
                 <div class="skill">
-                    <h2 class="skill-title">Habilidades</h2>
-                    <p class="skill-descripcion">Las habilidades técnicas y profesionales que poseo son el motor que
+                    <h2 class="title"><i class='bx bx-code-block' ></i> Habilidades</h2>
+                    <p class="descripcion">Las habilidades técnicas y profesionales que poseo son el motor que
                         impulsa mi capacidad para
                         superar
                         desafíos y concebir soluciones innovadoras. Estas competencias han sido la base de cada etapa de
@@ -169,18 +158,20 @@
                     </div>
                 </div>
             </section>
-            <section id="contacto" class="section-contacto">
+            <section id="contacto" class="section">
                 <div class="contacto">
-                    <h2 class="contacto-title">Contacto</h2>
+                    <h2 class="title"><i class='bx bxs-contact' ></i> Contacto</h2>
                     <div class="box">
                         <div class="box-contacto">
                             <div class="contacto">
                                 <div class="social-link">
-                                    <a href="https://github.com/amigos81/portafolio.git"><i class='bx bxl-github'></i></a>
+                                    <a href="https://github.com/amigos81/portafolio.git"><i
+                                            class='bx bxl-github'></i></a>
                                     <a href=""><i class='bx bxl-linkedin-square'></i></a>
                                 </div>
                             </div>
-                            <a href="mailto: sis.duar@gmail.com" style="font-size: 1.5rem; font-weight: bold; color:var(--txt-title)">sis.duar@gmail.com</a>
+                            <a href="mailto: sis.duar@gmail.com"
+                                style="font-size: 1.5rem; font-weight: bold; color:var(--txt-title)">sis.duar@gmail.com</a>
                             <a href="https://api.whatsapp.com/send?phone=+51 998040405&text=Hola">
                                 <div class="whatsapp">
                                     <i class='bx bxl-whatsapp'></i>
@@ -218,6 +209,19 @@
     <footer class="footer">
         <p>© 2024 Edward Quisocala. Todos los derechos recervados</p>
     </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      const typed = new Typed('.hero-desarrollador span', {
+        strings: [
+          '<b>Front-end</b>', '<b>Back-end</b>', '<b>Full-stack</b>'
+        ],
+        typeSpeed: 60,
+        backSpeed: 60,
+        loop: true,
+        cursorChar: '|',
+      })
+    </script>
 
     <script src="assets/js/index.js"></script>
 </body>
