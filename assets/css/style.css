@@ -2,8 +2,8 @@
     --bg-header: #ffffff;
     --bg-body: #ffffff;
     --bg-hero: #F7F7F7;
-    --bg-descripcion:#F7F7F7;
-    --bg-itemskill:rgba(0, 112, 240, 0.1);
+    --bg-descripcion: #F7F7F7;
+    --bg-itemskill: rgba(0, 112, 240, 0.1);
 
     --txt-body: #002057;
     --txt-title: #002057;
@@ -16,8 +16,8 @@
     --bg-body: #374151;
     --bg-hero: #374151;
 
-    --bg-descripcion:#374151;
-    --bg-itemskill:rgba(255, 255, 255, 0.3);
+    --bg-descripcion: #374151;
+    --bg-itemskill: rgba(255, 255, 255, 0.3);
 
     --txt-body: #ffffff;
     --txt-title: #ffffff;
@@ -207,6 +207,7 @@ a {
     font-size: 2.5rem;
     color: var(--txt-title)
 }
+
 /* ************************************************* */
 
 .title {
@@ -220,14 +221,14 @@ a {
     margin-bottom: 20px;
 }
 
-.title i{
+.title i {
     /* color: var(--btn-theme); */
     color: #FF7C02;
     font-size: 30px;
     margin-right: 10px;
 }
 
-.title-linea{
+.title-linea {
     width: 50%;
     border-top: 2px solid #FF7C02;
     text-align: start;
@@ -240,17 +241,17 @@ a {
     border-radius: 10px;
 }
 
-.section{
+.section {
     padding-top: 65px;
 }
 
 /************************************************** SECCION ACERCA DE MI */
 
-.habildades-blandas li{
+.habildades-blandas li {
     list-style: none;
 }
 
-.habildades-blandas li i{
+.habildades-blandas li i {
     font-size: 18px;
 }
 
@@ -281,6 +282,7 @@ a {
     /* align-items: center;  */
     height: 70px;
 }
+
 /* @media screen and (max-width:768px) {
     .itens-skill {
         box-shadow: rgba(14, 36, 61, 0.3) 1px 2px 2px 2px;
@@ -310,6 +312,61 @@ a {
     font-size: 0.8rem;
 }
 
+/*************************************************** Seccion proyectos */
+
+.card {
+    margin-top: 50px;
+    /* background-color: #E5ECFB; */
+    width: 100%;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 30px 30px;
+}
+
+.card-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    column-gap: 20px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    /* padding-left: 20px; */
+    /* box-shadow: rgba(0, 112, 240, 0.1) 1px 2px 2px 2px; */
+    box-shadow: var(--bg-itemskill) 1px 2px 5px 2px;
+    /* align-items: center;  */
+    /* height: 70px; */
+}
+
+.card-img {
+    width: 100%;
+    /* height: 200px; */
+    overflow: hidden;
+}
+
+.card-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 10px 20px ;
+}
+
+.card-body .card-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.card-icon .bx{
+    margin-top: 15px;
+    font-size: 2.0rem;
+}
 
 /*************************************************** Seccion contactos */
 
@@ -336,6 +393,7 @@ a {
     padding-left: 20px;
     box-shadow: var(--bg-itemskill) 1px 2px 2px 2px;
     padding: 10px;
+    margin-top: 30px;    
 }
 
 .whatsapp .bx {
@@ -466,12 +524,12 @@ a {
         margin-top: 10px;
     }
 
-    .title{
+    .title {
         font-size: 2rem;
         width: 100%;
     }
 
-    .section{
+    .section {
         padding-left: 10px;
         padding-right: 10px;
     }
